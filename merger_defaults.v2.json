@@ -50,34 +50,51 @@
     "conservative": 0.15,
     "aggressive": 0.35
   },
+  "revenue_mix": {
+    "Commercial": {
+      "loans": 0.7,
+      "fees": 0.3,
+      "other": 0.0
+    },
+    "SmallBiz": {
+      "loans": 0.7,
+      "fees": 0.3,
+      "other": 0.0
+    },
+    "Consumer": {
+      "loans": 0.4,
+      "fees": 0.6,
+      "other": 0.0
+    },
+    "Mortgage": {
+      "loans": 1.0,
+      "fees": 0.0,
+      "other": 0.0
+    }
+  },
   "lumio_pricing_tiers": [
     {
       "min_assets": 0,
       "max_assets": 800000000,
-      "annual_cost": 36000
+      "annual_cost": 48000
     },
     {
       "min_assets": 800000000,
       "max_assets": 2000000000,
-      "annual_cost": 48000
+      "annual_cost": 60000
     },
     {
       "min_assets": 2000000000,
       "max_assets": 4000000000,
-      "annual_cost": 60000
+      "annual_cost": 66000
     },
     {
       "min_assets": 4000000000,
       "max_assets": 7000000000,
-      "annual_cost": 66000
-    },
-    {
-      "min_assets": 7000000000,
-      "max_assets": 12000000000,
       "annual_cost": 72000
     },
     {
-      "min_assets": 12000000000,
+      "min_assets": 7000000000,
       "max_assets": null,
       "annual_cost": 100000
     }
