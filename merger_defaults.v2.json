@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "as_of": "2025-06-30",
+    "currency": "USD"
+  },
+  "segments": [
+    "Commercial",
+    "Consumer",
+    "SmallBiz",
+    "Mortgage"
+  ],
+  "bankX": {
+    "customers": 18000,
+    "mix_pct": {
+      "Commercial": 0.35,
+      "Consumer": 0.45,
+      "SmallBiz": 0.15,
+      "Mortgage": 0.05
+    },
+    "avg_products_per_cust": {
+      "Commercial": 3.2,
+      "Consumer": 2.7,
+      "SmallBiz": 2.9,
+      "Mortgage": 1.4
+    }
+  },
+  "bankY": {
+    "customers": 12000,
+    "mix_pct": {
+      "Commercial": 0.25,
+      "Consumer": 0.55,
+      "SmallBiz": 0.12,
+      "Mortgage": 0.08
+    },
+    "avg_products_per_cust": {
+      "Commercial": 2.4,
+      "Consumer": 1.9,
+      "SmallBiz": 2.1,
+      "Mortgage": 1.1
+    }
+  },
+  "revenue_per_product": {
+    "Commercial": 1200,
+    "Consumer": 180,
+    "SmallBiz": 500,
+    "Mortgage": 1000
+  },
+  "conversion_rates": {
+    "base": 0.25,
+    "conservative": 0.15,
+    "aggressive": 0.35
+  },
+  "lumio_pricing_tiers": [
+    {
+      "min_assets": 0,
+      "max_assets": 800000000,
+      "annual_cost": 36000
+    },
+    {
+      "min_assets": 800000000,
+      "max_assets": 2000000000,
+      "annual_cost": 48000
+    },
+    {
+      "min_assets": 2000000000,
+      "max_assets": 4000000000,
+      "annual_cost": 60000
+    },
+    {
+      "min_assets": 4000000000,
+      "max_assets": 7000000000,
+      "annual_cost": 66000
+    },
+    {
+      "min_assets": 7000000000,
+      "max_assets": 12000000000,
+      "annual_cost": 72000
+    },
+    {
+      "min_assets": 12000000000,
+      "max_assets": null,
+      "annual_cost": 100000
+    }
+  ]
+}
